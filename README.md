@@ -8,6 +8,7 @@ Authors: Anil Tan Aktan, Alaa Almouradi, Erchan Aptoula, Berrin Yanikoglu
 Sabanci University, Istanbul, Türkiye
 
 
+[![Download Models](https://img.shields.io/badge/Download-Trained%20Models-blue?style=for-the-badge&logo=github)]((https://github.com/aserman01/ISIC2019-Skin-Lesion-Classification-Ensemble/releases/))
 
 ## Paper Overview
 
