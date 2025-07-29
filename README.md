@@ -7,13 +7,13 @@ This repository contains the implementation and results described in our paper:
 Authors: Anil Tan Aktan, Alaa Almouradi, Erchan Aptoula, Berrin Yanikoglu
 Sabanci University, Istanbul, Türkiye
 
----
+
 
 ## Paper Overview
 
 This paper addresses the challenge of accurately classifying dermoscopic skin lesion images into multiple diagnostic categories, including various cancer types. It evaluates state-of-the-art deep learning architectures, tackles class imbalance and robustness issues, and proposes a heterogeneous ensemble model achieving high performance.
 
----
+
 
 ## Contributions
 
@@ -21,9 +21,7 @@ This paper addresses the challenge of accurately classifying dermoscopic skin le
 * Development of a heterogeneous ensemble model for enhanced multi-class classification.
 * Implementation of effective test-time augmentation for clinical robustness.
 
----
 
----
 
 ## Dataset
 
@@ -33,7 +31,7 @@ The models are trained and evaluated on the publicly available [ISIC 2019 Datase
 * Test set: 8,238 images
 * Classes: NV, MEL, BCC, BKL, AK, SCC, VASC, DF
 
----
+
 
 ## Methods and Technologies
 
@@ -49,9 +47,7 @@ The models are trained and evaluated on the publicly available [ISIC 2019 Datase
   * Loss functions (Cross-Entropy, Weighted Cross-Entropy, Focal Loss)
   * Bayesian hyperparameter optimization (Optuna)
 
----
 
----
 
 ## Results
 
@@ -62,10 +58,6 @@ The models are trained and evaluated on the publicly available [ISIC 2019 Datase
 | MambaVision           | 0.723     | 0.735     | 0.591             | 0.918     |
 | **Proposed Ensemble** | **0.743** | **0.748** | **0.607**         | **0.942** |
 
----
-
-
----
 
 ## Contact
 
